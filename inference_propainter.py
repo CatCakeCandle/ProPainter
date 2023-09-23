@@ -175,8 +175,8 @@ def get_ref_index(mid_neighbor_id, neighbor_ids, length, ref_stride=10, ref_num=
 
 
 if __name__ == '__main__':
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    device = get_device()
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # device = get_device()
     
     parser = argparse.ArgumentParser()
     parser.add_argument(
